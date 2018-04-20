@@ -6,8 +6,6 @@ def prime?(integer)
   for num in divisors
     if integer.abs%num == 0
       return false
-    else 
-      return true
     end
   end
 end
