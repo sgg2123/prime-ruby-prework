@@ -11,3 +11,5 @@ def prime?(integer)
     end
   end
 end
+
+prime?(-1)
