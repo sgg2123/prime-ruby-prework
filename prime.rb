@@ -1,7 +1,7 @@
 def prime?(integer)
-  divisors = Array(2..(integer-1))
+  divisors = Array(2..(integer.abs-1))
   for num in divisors
-    if integer%num == 0
+    if integer.abs%num == 0
       return false
     else 
       return true
