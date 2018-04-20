@@ -1,1 +1,3 @@
 def prime?(integer)
+  
+end
