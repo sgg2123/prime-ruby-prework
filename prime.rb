@@ -1,5 +1,5 @@
 def prime?(integer)
-  if integer <= 0
+  if integer <= 1
     return false
   end
   divisors = Array(2..(integer.abs-1))
