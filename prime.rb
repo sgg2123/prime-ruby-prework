@@ -1,5 +1,5 @@
 def prime?(integer)
-  divisors = Array(2..sqrt(integer))
+  divisors = Array(2..(integer-1))
   for num in divisors
-    integer/num
+    if integer%num == 0
 end
